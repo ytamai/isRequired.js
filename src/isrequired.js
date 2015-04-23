@@ -1,3 +1,11 @@
+/*
+* isRequired.js v0.6.0
+* https://github.com/ytamai/isRequired.js
+*
+* Copyright 2015 ytamai
+* Released under the MIT license
+*/
+
 function isRequired(type,test){
   function isNumber(x){
    if(String(typeof(x))!='number' && String(typeof(x))!='string'){
